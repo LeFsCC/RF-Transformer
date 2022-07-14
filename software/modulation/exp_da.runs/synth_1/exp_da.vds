@@ -1,0 +1,509 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May  6 15:09:50 2022
+# Process ID: 3504
+# Current directory: F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1
+# Command line: vivado.exe -log exp_da.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source exp_da.tcl
+# Log file: F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/exp_da.vds
+# Journal file: F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source exp_da.tcl -notrace
+Command: synth_design -top exp_da -part xc7a35tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17388 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 397.047 ; gain = 103.562
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'exp_da' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/exp_da.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/.Xil/Vivado-3504-GEXPECTATION/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/.Xil/Vivado-3504-GEXPECTATION/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'count_10' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_10.v:23]
+WARNING: [Synth 8-5788] Register clk_2m_reg in module count_10 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_10.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'count_10' (2#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_10.v:23]
+INFO: [Synth 8-6157] synthesizing module 'count_2' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_2.v:23]
+WARNING: [Synth 8-5788] Register clk_20m_reg in module count_2 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_2.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'count_2' (3#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'count_50' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_50.v:23]
+WARNING: [Synth 8-5788] Register clk_20k_reg in module count_50 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_50.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'count_50' (4#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_50.v:23]
+INFO: [Synth 8-6157] synthesizing module 'count_100' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_100.v:1]
+WARNING: [Synth 8-5788] Register clk_10k_reg in module count_100 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_100.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'count_100' (5#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count_100.v:1]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/.Xil/Vivado-3504-GEXPECTATION/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (6#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/.Xil/Vivado-3504-GEXPECTATION/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'da_wave_send' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/da_wave_send.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'da_wave_send' (7#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/da_wave_send.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/.Xil/Vivado-3504-GEXPECTATION/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (8#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/.Xil/Vivado-3504-GEXPECTATION/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_2' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/.Xil/Vivado-3504-GEXPECTATION/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_2' (9#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/.Xil/Vivado-3504-GEXPECTATION/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_3' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/.Xil/Vivado-3504-GEXPECTATION/realtime/blk_mem_gen_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_3' (10#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/.Xil/Vivado-3504-GEXPECTATION/realtime/blk_mem_gen_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'count' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count.v:1]
+	Parameter MAX_NUM bound to: 23'b10011000100101101000000 
+INFO: [Synth 8-6155] done synthesizing module 'count' (11#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/count.v:1]
+INFO: [Synth 8-6157] synthesizing module 'seg_led' [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/seg_led.v:2]
+	Parameter CLK_DIVIDE bound to: 4'b1010 
+	Parameter MAX_NUM bound to: 13'b1001110001000 
+INFO: [Synth 8-6155] done synthesizing module 'seg_led' (12#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/seg_led.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'exp_da' (13#1) [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/new/exp_da.v:23]
+WARNING: [Synth 8-3331] design count has unconnected port clk_1hz
+WARNING: [Synth 8-3331] design da_wave_send has unconnected port key[3]
+WARNING: [Synth 8-3331] design da_wave_send has unconnected port key[2]
+WARNING: [Synth 8-3331] design da_wave_send has unconnected port key[1]
+WARNING: [Synth 8-3331] design da_wave_send has unconnected port key[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 453.617 ; gain = 160.133
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 453.617 ; gain = 160.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 453.617 ; gain = 160.133
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'instance_name'
+Finished Parsing XDC File [f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'instance_name'
+Parsing XDC File [f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'out_rom1'
+Finished Parsing XDC File [f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'out_rom1'
+Parsing XDC File [f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3/blk_mem_gen_3_in_context.xdc] for cell 'rom_u4'
+Finished Parsing XDC File [f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3/blk_mem_gen_3_in_context.xdc] for cell 'rom_u4'
+Parsing XDC File [f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'rom_u1'
+Finished Parsing XDC File [f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'rom_u1'
+Parsing XDC File [f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'rom_u3'
+Finished Parsing XDC File [f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2/blk_mem_gen_2_in_context.xdc] for cell 'rom_u3'
+Parsing XDC File [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_2m'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:1]
+WARNING: [Vivado 12-584] No ports matched 'clk_125m'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:3]
+WARNING: [Vivado 12-584] No ports matched 'clk_2m'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:8]
+WARNING: [Vivado 12-584] No ports matched 'clk_125m'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'clk_10m'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:12]
+WARNING: [Vivado 12-584] No ports matched 'clk_10m'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'clk_80m'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'clk_80m'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'clk_1'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:125]
+WARNING: [Vivado 12-584] No ports matched 'clk_1'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:126]
+CRITICAL WARNING: [Common 17-161] Invalid option value 'set_property' specified for 'objects'. [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc:140]
+Finished Parsing XDC File [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/exp_da_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/constrs_1/new/exp_da.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/exp_da_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/exp_da_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 787.121 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 787.121 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 787.121 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.197 . Memory (MB): peak = 787.121 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'out_rom1' at clock pin 'clka' is different from the actual clock period '8.333', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rom_u1' at clock pin 'clka' is different from the actual clock period '8.333', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rom_u3' at clock pin 'clka' is different from the actual clock period '8.333', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'rom_u4' at clock pin 'clka' is different from the actual clock period '8.333', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 787.121 ; gain = 493.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 787.121 ; gain = 493.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk. (constraint file  f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 8).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk. (constraint file  f:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 9).
+Applied set_property DONT_TOUCH = true for instance_name. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for out_rom1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rom_u4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rom_u1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for rom_u3. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 787.121 ; gain = 493.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "cnt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "clk_20m" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "clk_20k" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clk_10k" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "dri_clk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dri_clk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "num" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg_sel" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 787.121 ; gain = 493.637
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 4     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 4     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   8 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module count_10 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module count_2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module count_50 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module count_100 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module da_wave_send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module count 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+Module seg_led 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   8 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "dri_clk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "count_10_u1/cnt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "count_2_u1/clk_20m" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "count_2_u11/clk_20m" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "count_2_u12/clk_20m" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "u4/clk_20k" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "uu4/clk_20k" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "count_2_u3/clk_20m" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "u5/clk_10k" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP rd_data_out3, operation Mode is: C+A*(B:0x3e8).
+DSP Report: operator rd_data_out3 is absorbed into DSP rd_data_out3.
+DSP Report: operator rd_data_out30 is absorbed into DSP rd_data_out3.
+WARNING: [Synth 8-3331] design exp_da has unconnected port key[3]
+WARNING: [Synth 8-3331] design exp_da has unconnected port key[2]
+WARNING: [Synth 8-3331] design exp_da has unconnected port key[1]
+WARNING: [Synth 8-3331] design exp_da has unconnected port key[0]
+INFO: [Synth 8-3886] merging instance 'u_count/sign_reg' (FDC) to 'u_count/point_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_count/point_reg[3]' (FDC) to 'u_count/point_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_count/point_reg[2]' (FDC) to 'u_count/point_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_count/point_reg[1]' (FDC) to 'u_count/point_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_count/point_reg[0]' (FDC) to 'u_count/point_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_count/point_reg[5]' (FDC) to 'u_count/point_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_count/point_reg[4] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:41 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|exp_da      | C+A*(B:0x3e8) | 10     | 10     | 10     | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'instance_name/clk_100m' to pin 'instance_name/bbstub_clk_100m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'instance_name/clk_10m' to pin 'instance_name/bbstub_clk_10m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'instance_name/clk_125m' to pin 'instance_name/bbstub_clk_125m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'instance_name/clk_40m' to pin 'instance_name/bbstub_clk_40m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'instance_name/clk_50m' to pin 'instance_name/bbstub_clk_50m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'instance_name/clk_80m' to pin 'instance_name/bbstub_clk_80m/O'
+INFO: [Synth 8-5819] Moved 6 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:53 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:53 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:54 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:55 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:55 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:55 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:55 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:55 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:55 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |blk_mem_gen_0 |         1|
+|3     |blk_mem_gen_1 |         1|
+|4     |blk_mem_gen_2 |         1|
+|5     |blk_mem_gen_3 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |blk_mem_gen_0 |     1|
+|2     |blk_mem_gen_1 |     1|
+|3     |blk_mem_gen_2 |     1|
+|4     |blk_mem_gen_3 |     1|
+|5     |clk_wiz_0     |     1|
+|6     |BUFG          |     2|
+|7     |CARRY4        |    94|
+|8     |DSP48E1       |     1|
+|9     |LUT1          |    16|
+|10    |LUT2          |   215|
+|11    |LUT3          |   149|
+|12    |LUT4          |   131|
+|13    |LUT5          |    70|
+|14    |LUT6          |   195|
+|15    |FDCE          |   101|
+|16    |FDPE          |     8|
+|17    |FDRE          |     5|
+|18    |IBUF          |     1|
+|19    |OBUF          |    48|
++------+--------------+------+
+
+Report Instance Areas: 
++------+------------------+---------------+------+
+|      |Instance          |Module         |Cells |
++------+------------------+---------------+------+
+|1     |top               |               |  1091|
+|2     |  count_10_u1     |count_10       |    11|
+|3     |  count_2_u1      |count_2        |     4|
+|4     |  count_2_u11     |count_2_0      |     4|
+|5     |  count_2_u12     |count_2_1      |     4|
+|6     |  da_wave_send_u1 |da_wave_send   |    40|
+|7     |  da_wave_send_u2 |da_wave_send_2 |    40|
+|8     |  u_count         |count          |     1|
+|9     |  u_seg_led       |seg_led        |   437|
+|10    |  uu4             |count_50       |    15|
++------+------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:55 . Memory (MB): peak = 943.316 ; gain = 649.832
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:47 . Memory (MB): peak = 943.316 ; gain = 316.328
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:56 . Memory (MB): peak = 943.316 ; gain = 649.832
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 95 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 943.316 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+70 Infos, 28 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:01:00 . Memory (MB): peak = 943.316 ; gain = 661.336
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 943.316 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/synth_1/exp_da.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file exp_da_utilization_synth.rpt -pb exp_da_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May  6 15:11:09 2022...

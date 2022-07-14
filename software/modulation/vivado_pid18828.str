@@ -1,0 +1,116 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 18828
+License: Customer
+
+Current time: 	Tue Jul 12 21:38:10 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 2
+Available disk space: 276 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	F:/Softwere/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	F:/Softwere/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	GEXPECTATION
+User home directory: C:/Users/М·Бъ
+User working directory: F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: F:/Softwere/Xilinx/Vivado
+HDI_APPROOT: F:/Softwere/Xilinx/Vivado/2018.3
+RDI_DATADIR: F:/Softwere/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: F:/Softwere/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/М·Бъ/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/М·Бъ/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/М·Бъ/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	F:/Softwere/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/vivado.log
+Vivado journal file location: 	F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/vivado.jou
+Engine tmp dir: 	F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/.Xil/Vivado-18828-GEXPECTATION
+
+Xilinx Environment Variables
+----------------------------
+ANDROID_SDK_HOME: F:\Softwere\AS\Android_avd
+XILINX: F:/Softwere/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: F:/Softwere/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: F:/Softwere/Xilinx/Vivado/2018.3
+XILINX_SDK: F:/Softwere/Xilinx/SDK/2018.3
+XILINX_VIVADO: F:/Softwere/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: F:/Softwere/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 542 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: F:\TL\ALter\CodeForPost\FPGAXilinxCode\verilog_prj\test_xulie7_7\exp_da.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 566 MB. GUI used memory: 49 MB. Current time: 7/12/22, 9:38:13 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 104 MB (+106384kb) [00:00:29]
+// [Engine Memory]: 664 MB (+545024kb) [00:00:29]
+// WARNING: HEventQueue.dispatchEvent() is taking  5525 ms.
+// Tcl Message: open_project F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Softwere/Xilinx/Vivado/2018.3/data/ip'. 
+// [Engine Memory]: 706 MB (+8996kb) [00:00:33]
+// [GUI Memory]: 113 MB (+3886kb) [00:00:33]
+// WARNING: HEventQueue.dispatchEvent() is taking  1558 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 57 MB. Current time: 7/12/22, 9:38:31 PM CST
+// [Engine Memory]: 861 MB (+125952kb) [00:00:36]
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 729.523 ; gain = 151.660 
+// Project name: exp_da; location: F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7; part: xc7a35tfgg484-2
+dismissDialog("Open Project"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 

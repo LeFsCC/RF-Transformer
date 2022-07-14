@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tfgg484-2" LaunchTime="1651821212">
+  <File Type="BITSTR-BMM" Name="exp_da_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="exp_da_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="exp_da_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="exp_da_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="exp_da.tcl"/>
+  <File Type="OPT-TIMING" Name="exp_da_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="exp_da_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="exp_da_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="exp_da_reports.tcl"/>
+  <File Type="OPT-DRC" Name="exp_da_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="exp_da.hwdef"/>
+  <File Type="PWROPT-DCP" Name="exp_da_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="exp_da_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="exp_da_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="exp_da_placed.dcp"/>
+  <File Type="PLACE-IO" Name="exp_da_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="exp_da_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="exp_da_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="exp_da_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="exp_da_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="exp_da_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="exp_da_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="exp_da.bgn"/>
+  <File Type="PLACE-TIMING" Name="exp_da_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="exp_da_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="exp_da.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="exp_da_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="exp_da_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="exp_da_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="exp_da.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="exp_da_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="exp_da_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="exp_da_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="exp_da_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="exp_da_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="exp_da_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="exp_da.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="exp_da_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="exp_da.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="exp_da_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="exp_da_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="exp_da.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="exp_da_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="exp_da_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="exp_da_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="exp_da_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="exp_da_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="exp_da_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="exp_da_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="exp_da_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="exp_da_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="exp_da_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="exp_da_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="exp_da_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="exp_da_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="exp_da_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="exp_da_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="exp_da_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="exp_da_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="exp_da_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="exp_da_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="exp_da.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="exp_da_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="exp_da.rbt"/>
+  <File Type="BITSTR-NKY" Name="exp_da.nky"/>
+  <File Type="BG-DRC" Name="exp_da.drc"/>
+  <File Type="RDI-RDI" Name="exp_da.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/count.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_10.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_100.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_50.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/da_wave_send.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seg_led.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/exp_da.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/count_1m.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/mem_init_files/dds_16384x14b_wave_test.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_v1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_standar_v1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_v2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_standar_v2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_random_v1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_random_50.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_2001.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_v1_4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_v2_4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_v1_4_2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_v2_4_2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_v1_s.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/wave_send_v2_s.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/new_wave_send_v1_s2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PIPUSERFILESDIR/new_wave_send_v2_s2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="exp_da"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/exp_da.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/exp_da.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_2"/>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May  6 15:07:31 2022
+# Process ID: 12572
+# Current directory: F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/impl_1
+# Command line: vivado.exe -log exp_da.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source exp_da.tcl -notrace
+# Log file: F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/impl_1/exp_da.vdi
+# Journal file: F:/TL/ALter/CodeForPost/FPGAXilinxCode/verilog_prj/test_xulie7_7/exp_da.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source exp_da.tcl -notrace

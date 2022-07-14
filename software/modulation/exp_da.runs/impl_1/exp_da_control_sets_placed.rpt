@@ -1,0 +1,82 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri May  6 15:15:01 2022
+| Host         : GEXPECTATION running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file exp_da_control_sets_placed.rpt
+| Design       : exp_da
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    14 |
+| Unused register locations in slices containing registers |    76 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            8 |
+|      4 |            1 |
+|      6 |            2 |
+|     10 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              15 |           10 |
+| No           | No                    | Yes                    |             105 |           40 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               4 |            1 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+--------------------+---------------------+------------------+----------------+
+|         Clock Signal         |    Enable Signal   |   Set/Reset Signal  | Slice Load Count | Bel Load Count |
++------------------------------+--------------------+---------------------+------------------+----------------+
+|  instance_name/inst/clk_100m |                    |                     |                1 |              1 |
+|  instance_name/inst/clk_80m  |                    |                     |                1 |              1 |
+|  instance_name/inst/clk_80m  |                    | u_seg_led/sys_rst_n |                1 |              1 |
+|  instance_name/inst/clk_40m  |                    |                     |                1 |              1 |
+|  count_2_u11/clk_20m_reg_0   |                    |                     |                1 |              1 |
+|  count_2_u11/clk_20m_reg_0   |                    | u_seg_led/sys_rst_n |                1 |              1 |
+|  count_10_u1/clk_2m          |                    |                     |                1 |              1 |
+|  count_10_u1/clk_2m          |                    | u_seg_led/sys_rst_n |                1 |              1 |
+|  instance_name/inst/clk_40m  | count_10_u1/p_0_in | u_seg_led/sys_rst_n |                1 |              4 |
+|  instance_name/inst/clk_100m |                    | u_seg_led/sys_rst_n |                2 |              6 |
+|  sys_clk_IBUF                |                    | u_seg_led/sys_rst_n |                2 |              6 |
+|  instance_name/inst/clk_125m |                    |                     |                5 |             10 |
+|  da_wrt2_OBUF_BUFG           |                    | u_seg_led/sys_rst_n |                9 |             32 |
+|  flag_reg_i_2_n_0            |                    | u_seg_led/sys_rst_n |               24 |             58 |
++------------------------------+--------------------+---------------------+------------------+----------------+
+
+
