@@ -1,4 +1,6 @@
 # RF-Transformer: A Unified Backscatter Radio Hardware Abstraction
+- Author: Xiuzhen Guo
+- Contact: guoxiuzhen94@gmail.com
 - Description: This repo hosts the hardware and software for the implementation of RF-Transformer. RF-Transformer provides a programmable interface to the micro-controller, allowing IoT devices to synthesize different types of protocol-compliant backscatter signals sharing radically different PHY-layer designs.
 
 # License
@@ -12,6 +14,6 @@ software includes the files needed for the backscatter signal generation.
 
 # Reference
 - RF-Transformer: A Unified Backscatter Radio Hardware Abstraction
-
+- Xiuzhen Guo, Yuan He, Zihao Yu, Jiacheng Zhang, Yunhao Liu, Longfei Shangguan. MobiCom 2022.
 
 
